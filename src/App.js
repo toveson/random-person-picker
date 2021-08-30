@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from '@material-ui/core/Button';
+// import Randomize from './pages/randomize/randomize';
 
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,6 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        <Button color='primary'>
+          Submit Name
+        </Button>
       </header>
     </div>
   );
